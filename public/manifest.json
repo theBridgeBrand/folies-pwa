@@ -1,0 +1,35 @@
+{
+  "name": "Folies Fridge - Frigo Connecté",
+  "short_name": "Folies Fridge",
+  "description": "Découvrez les plats disponibles dans votre frigo connecté Folies Fridge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5ece3",
+  "theme_color": "#f5ece3",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/folies-food-rvb_52.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Mon frigo",
+      "short_name": "Frigo",
+      "description": "Voir les plats disponibles",
+      "url": "/",
+      "icons": [{ "src": "/folies-food-rvb_52.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Promotions",
+      "short_name": "Promos",
+      "description": "Voir les offres du moment",
+      "url": "/?page=promotions",
+      "icons": [{ "src": "/folies-food-rvb_52.png", "sizes": "512x512" }]
+    }
+  ]
+}
